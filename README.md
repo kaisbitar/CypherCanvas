@@ -1,4 +1,4 @@
-# DIRTT Photo Gallery
+# DIRTT CAST
 
 ## Project setup
 ```

@@ -10,7 +10,7 @@ export default {
     host: "localhost",
     port: 7687,
     username: "neo4j",
-    password: "1234",
+    password: "d1r++Neo4j",
     response: null
   }),
   methods: {
@@ -23,33 +23,14 @@ export default {
         this.username,
         this.password
       );
-      // .then(driver => {
-      // Update the context of your app
-      // console.log(driver);
-      // });
     },
     driver() {
       // Get a driver instance
       return this.$neo4j.getDriver();
-    },
-    testQuery() {
-      // Get a session from the driver
-      const session = this.$neo4j.getSession();
-
-      // Or you can just call this.$neo4j.run(cypher, params)
-      session
-        .run("MATCH (n:{Person}) RETURN n limit 5000")
-        .then(res => {
-          this.response = res;
-        })
-        .then(() => {
-          session.close();
-        });
     }
   },
   created() {
     this.connect();
-    // this.testQuery();
   }
 };
 </script>

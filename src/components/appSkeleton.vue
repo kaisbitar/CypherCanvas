@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer v-model="drawer" app left>
+    <!-- <v-navigation-drawer v-model="drawer" app left>
       <v-list dense>
         <v-list-item>
           <v-list-item-action>
@@ -15,8 +15,6 @@
           </v-list-item-content>
         </v-list-item>
 
-        <!-- <h3>البحث على مستوى:</h3> -->
-
         <v-list-item>
           <v-list-item-action>
             <v-icon>mdi-resistor-nodes</v-icon>
@@ -30,11 +28,11 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
 
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon> -->
         <v-toolbar-title>ICE Data Sience</v-toolbar-title>
       </div>
     </v-app-bar>

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <siteMenu />
+    <appSkeleton />
     <v-content>
       <router-view />
     </v-content>
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import siteMenu from "./components/siteMenu.vue";
+import appSkeleton from "./components/appSkeleton.vue";
 
 export default {
   name: "App",
   components: {
-    siteMenu
+    appSkeleton
   },
   data: () => ({})
 };

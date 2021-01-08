@@ -1,5 +1,5 @@
 {
-  "name": "dirtt-photo-gallery",
+  "name": "dirtt-cast",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,11 @@
   },
   "dependencies": {
     "3d-force-graph": "^1.67.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "cloudinary-vue": "^1.0.1",
     "core-js": "^3.6.4",
     "current-script-polyfill": "^1.0.0",
+    "fish-install": "^0.2.0",
     "neovis.js": "^1.6.0",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",

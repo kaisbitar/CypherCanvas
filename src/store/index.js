@@ -5,12 +5,17 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    apiItems: []
+    apiItems: [],
+    records: []
   },
   getter: {
     apiItems: state => state.apiItems
   },
-  mutations: {},
+  mutations: {
+    setRecordsResults(state, records) {
+      state.records = records;
+    }
+  },
   actions: {},
   modules: {}
 });
