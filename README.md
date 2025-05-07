@@ -14,7 +14,7 @@ A lightweight web interface for querying and visualizing data from a Neo4j graph
 - **Frontend**: Vue.js  
 - **Backend**: Node.js + Express.js  
 - **Database**: Neo4j (via Bolt protocol)  
-- **Visualization**: D3.js or similar library  
+- **Visualization**: Neovis
 
 ---
 
@@ -52,13 +52,6 @@ npm run serve
 ```
 
 Then open your browser to [http://localhost:8080](http://localhost:8080)
-
----
-
-## 📸 Screenshot
-
-<!-- Insert screenshot image here -->
-`Coming soon`
 
 ---
 
