@@ -1,4 +1,4 @@
-# 📊 Graph-Dev
+# 📊 CypherCanvas
 
 A lightweight web interface for querying and visualizing data from a Neo4j graph database. Write Cypher queries, explore nodes and relationships, and view results in an interactive graph — all from your browser.
 
